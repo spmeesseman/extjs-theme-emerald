@@ -1,0 +1,97 @@
+{
+    "name": "@spmeesseman/extjs-theme-emerald",
+    "version": "1.0.0",
+    "displayName": "ExtJS Theme - Emerald",
+    "description": "ExtJS Theme - Emerald Green Using the Crisp Theme",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "author": {
+        "name": "Scott Meesseman",
+        "email": "spmeesseman@gmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/spmeesseman/extjs-theme-emerald/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/spmeesseman/extjs-theme-emerald.git"
+    },
+    "homepage": "https://github.com/spmeesseman/extjs-theme-emerald/blob/master/README.md",
+    "devDependencies": {},
+    "keywords": [
+        "sencha extjs",
+        "theme",
+        "classic",
+        "green"
+    ],
+    "publishConfig": {
+        "access": "restricted"
+    },
+    "files": [
+        "build.xml",
+        "overrides",
+        "resources",
+        "sass"
+    ],
+    "sencha": {
+        "namespace": "Ext",
+        "name": "theme-emerald",
+        "type": "theme",
+        "extend": "theme-crisp",
+        "toolkit": "classic",
+        "creator": "smeesseman",
+        "summary": "Emerald Theme",
+        "detailedDescription": "Emerald Theme uses green/white contrast",
+        "version": "1.0.0.0",
+        "compatVersion": "1.0.0",
+        "format": "1",
+        "slicer": {
+            "js": [
+                {
+                    "path": "${package.dir}/sass/example/custom.js",
+                    "isWidgetManifest": true
+                }
+            ]
+        },
+        "fashion": {
+            "inliner": {
+                "enable": false,
+                "maxItemSize": 20000,
+                "excludes": [
+                    ".*\\.woff",
+                    ".*\\.woff2",
+                    ".*\\.ttf",
+                    ".*\\.eot",
+                    ".*\\.svg"
+                ]
+            }
+        },
+        "output": "${package.dir}/build",
+        "local": true,
+        "sass": {
+            "namespace": "Ext",
+            "etc": [
+                "${package.dir}/sass/etc/all.scss"
+            ],
+            "var": [
+                "${package.dir}/sass/var"
+            ],
+            "src": [
+                "${package.dir}/sass/src"
+            ]
+        },
+        "classpath": [
+            "${package.dir}/src"
+        ],
+        "overrides": [
+            "${package.dir}/overrides"
+        ],
+        "requires": [
+            "theme-turquoise",
+            "fontawesome",
+            "font-ext"
+        ],
+        "ignore": [
+            "(^|/)CVS(/?$|/.*?$)"
+        ]
+    }
+}
