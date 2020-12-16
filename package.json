@@ -2,7 +2,7 @@
     "name": "@spmeesseman/extjs-theme-emerald",
     "version": "1.0.0",
     "displayName": "ExtJS Theme - Emerald",
-    "description": "ExtJS Theme - Emerald Green Using the Crisp Theme",
+    "description": "ExtJS Theme - Emerald Green Using the Amethyst Theme",
     "license": "SEE LICENSE IN LICENSE.txt",
     "author": {
         "name": "Scott Meesseman",
@@ -36,7 +36,7 @@
         "namespace": "Ext",
         "name": "theme-emerald",
         "type": "theme",
-        "extend": "theme-crisp",
+        "extend": "theme-amethyst",
         "toolkit": "classic",
         "creator": "smeesseman",
         "summary": "Emerald Theme",
