@@ -1,6 +1,6 @@
 {
     "name": "@perryjohnson/extjs-theme-emerald",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "ExtJS Theme - Emerald",
     "description": "ExtJS Theme - Emerald Green Using the Amethyst Theme",
     "license": "SEE LICENSE IN LICENSE.txt",
@@ -42,8 +42,8 @@
         "creator": "smeesseman",
         "summary": "Emerald Theme",
         "detailedDescription": "Emerald Theme uses green/white contrast",
-        "version": "1.0.0.0",
-        "compatVersion": "1.0.0",
+        "version": "1.0.1.0",
+        "compatversion": "1.0.1",
         "format": "1",
         "slicer": {
             "js": [
