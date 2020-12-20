@@ -1,21 +1,22 @@
 {
-    "name": "@spmeesseman/extjs-theme-emerald",
+    "name": "@perryjohnson/extjs-theme-emerald",
     "version": "1.0.0",
     "displayName": "ExtJS Theme - Emerald",
     "description": "ExtJS Theme - Emerald Green Using the Amethyst Theme",
     "license": "SEE LICENSE IN LICENSE.txt",
     "author": {
         "name": "Scott Meesseman",
-        "email": "spmeesseman@gmail.com"
+        "email": "smeesseman@pjats.com"
     },
     "bugs": {
-        "url": "https://github.com/spmeesseman/extjs-theme-emerald/issues"
+        "email": "smeesseman@pjats.com",
+        "url": "https://app1.development.pjats.com/projects/set_project.php?project=ExtJs%20Packages&make_default=no&ref=bug_report_page.php"
     },
+    "homepage": "https://app1.development.pjats.com/svn/web/listing.php?repname=pja&path=%2FExtJs%20Packages%2Ftrunk%2F",
     "repository": {
-        "type": "git",
-        "url": "https://github.com/spmeesseman/extjs-theme-emerald.git"
+        "type": "svn",
+        "url": "https://svn.development.pjats.com/pja/extjs-theme-emerald/trunk"
     },
-    "homepage": "https://github.com/spmeesseman/extjs-theme-emerald/blob/master/README.md",
     "devDependencies": {},
     "keywords": [
         "sencha extjs",
